@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  margin: 30px auto;
+  width: 950px;
+  height: 720px;
+  background: lightgray;
+}
+.header {
+  line-height: 100px;
+  float: left;
+  width: 98%;
+  height: 100px;
+  background: rgb(27, 74, 161);
+  margin: 70px 10px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.iconPart {
+  float: left;
+  width: 25%;
+  height: 80%;
+  margin: 10px 10px;
+  border-right: 3px solid white;
+}
+.icon {
+  background: rgb(11, 12, 51);
+  border-radius: 100%;
+  border: 1px solid white;
+  height: 85%;
+  width: 70px;
+  padding: 5px;
+  margin: 0px 35px;
+}
+.textPart {
+  float: left;
+}
+.flexPart {
+  float: left;
+  width: 98%;
+  height: auto;
+  margin: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+}
+.flexDiv {
+  cursor: pointer;
+  width: 222.5px;
+  height: 100px;
+  background: yellow;
+  margin: 5px;
+  border-radius: 10px;
+}
+.flexDiv:nth-child(1) {
+  background: white;
+}
+.flexDiv:nth-child(2) {
+  background: rgb(114, 224, 81);
+}
+.flexDiv:nth-child(3) {
+  background: white;
+}
+.flexDiv:nth-child(4) {
+  background: white;
+}
+.flexDiv:nth-child(5) {
+  background: rgb(29, 147, 194);
+}
+.flexDiv:nth-child(6) {
+  background: white;
+  text-align: center;
+}
+.flexDiv:nth-child(7) {
+  background: white;
+}
+.flexDiv:nth-child(8) {
+  background: white;
+}
+.flexDiv:nth-child(9) {
+  background: white;
+}
+.flexDiv:nth-child(10) {
+  background: white;
+}
+.flexDiv:nth-child(11) {
+  background: white;
+}
+.flexDiv:nth-child(12) {
+  background: white;
+}
+.flexDiv:nth-child(13) {
+  background: white;
+}
+
+.flexDiv:nth-child(1) .flexDivImg {
+  width: 90%;
+  height: 80%;
+  margin: 10px 10px;
+}
+.flexDiv:nth-child(2) .flexDivImg {
+  width: 82%;
+  height: 70%;
+  margin: 15px 20px;
+}
+
+.flexDiv:nth-child(3) .flexDivImg {
+  width: 90%;
+  height: 90%;
+  margin: 5px 10px;
+}
+.flexDiv:nth-child(4) .flexDivImg {
+  width: 90%;
+  height: 70%;
+  margin: 15px 10px;
+}
+.flexDiv:nth-child(5) .flexDivImg {
+  width: 80%;
+  height: 60%;
+  margin: 20px 20px;
+}
+.flexDiv:nth-child(6) .flexDivImg {
+  width: 60%;
+  height: 70%;
+  margin: 15px 10px;
+}
+
+.flexDiv:nth-child(7) .flexDivImg {
+  width: 90%;
+  height: 70%;
+  margin: 15px 10px;
+}
+.flexDiv:nth-child(8) .flexDivImg {
+  width: 90%;
+  height: 90%;
+  margin: 5px 10px;
+}
+.flexDiv:nth-child(9) .flexDivImg {
+  width: 90%;
+  height: 100%;
+  margin: 0px 10px;
+}
+.flexDiv:nth-child(10) .flexDivImg {
+  width: 70%;
+  height: 90%;
+  margin: 5px 30px;
+}
+
+.flexDiv:nth-child(11) .flexDivImg {
+  width: 90%;
+  height: 90%;
+  margin: 5px 10px;
+}
+.flexDiv:nth-child(12) .flexDivImg {
+  width: 90%;
+  height: 80%;
+  margin: 5px 10px;
+}
+.flexDiv:nth-child(13) .flexDivImg {
+  width: 70%;
+  height: 70%;
+  margin: 15px 30px;
+}
+
+.footer {
+  top: 88%;
+  position: absolute;
+  float: left;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.btn {
+  outline: none;
+  cursor: pointer;
+  width: 220px;
+  height: 75px;
+  background: darkgray;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  color: white;
+  text-align: start;
+}
+.btnIcon {
+  float: left;
+  width: 25%;
+  padding: 0px 10px;
+  border-right: 3px solid white;
+  margin-right: 17px;
+}
+.btnText {
+  margin-top: 5px;
+}
